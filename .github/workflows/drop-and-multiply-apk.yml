@@ -3,6 +3,7 @@ name: Drop and Multiply APK
 on:
   push:
     branches: [ drop-and-multiply-apk-build ]
+  pull_request:
   workflow_dispatch:
 
 jobs:
